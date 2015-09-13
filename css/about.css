@@ -1,0 +1,15 @@
+.about-image {
+    position: relative;
+    width: 100%;
+} 
+
+.about-text {
+    position: absolute;
+    top: 1px;
+    right: 0px;
+    width: 450px;
+    height: 170px;
+    background-color: #ffffff;
+	padding: 15px 25px;
+	font-size: 12px;
+}

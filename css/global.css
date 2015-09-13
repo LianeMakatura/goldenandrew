@@ -1,0 +1,192 @@
+/* =====================================
+FOR GENERAL ELEMENTS
+*/
+body{
+	background: #ffffff;
+	font-family: Montserrat, impact, sans-serif;
+}
+
+/* make hyperlinks less apparent, not blue or underlined*/
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+     color:#000000; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+.no-bullets {
+    list-style-type: none;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+/* =====================================
+FOR HEADER ELEMENTS:
+	1. name
+	2. tagline
+	3. navbar
+*/
+
+#name-logo {
+	text-align: center;
+	font-size: 5.8vw;
+}
+
+#nav-container {
+	text-align: justify;
+}
+
+#tagline {
+	text-align: center;
+	font-weight: lighter;
+}
+
+.navbar {
+	padding-top: 5px;
+	display: inline-block;
+	float: none;
+	vertical-align: middle;
+}
+
+.navbar .navbar-collapse {
+ 	text-align: center;
+}
+
+.navbar-custom {
+    background-color: transparent;
+    border: none;
+}
+
+
+/* =====================================
+FOR FEATURE CAROUSEL
+*/
+.feature-carousel {
+	clear: both;
+	height: 600px;
+}
+
+
+/* =====================================
+FOR TILED IMAGE ELEMENTS
+*/
+.cover-card {
+	background: silver;
+	padding: 0px;
+	margin: 0px;
+	height:250px;
+}
+.cover-card > p {
+	text-align: center;
+	background-color: rgba(6,6,6,0.0);
+	color: rgba(6,6,6,0.0);
+	width: 100%;
+	height: 100%;
+	font-weight: bold;
+	font-size: 20px;
+}
+.cover-card:hover > p {
+	background-color: rgba(6,6,6,0.3);
+	color: white;
+	text-shadow: 3px 3px 10px #000;
+}
+
+
+/* =====================================
+FOR FOOTER
+*/
+.footer {
+	padding-top: 35px;
+}
+
+.footer > .credits > h6 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: gray;
+}
+
+#copyright {
+	margin-top: 13px;
+	margin-bottom: 20px;
+}
+
+.social-media {
+	vertical-align: top;
+	padding-left: 50px;
+	display: inline-block;
+	float: left;
+
+}
+
+.media-icon {
+	height: 40px;
+	width: 45px;
+}
+
+.credits {
+	padding-right: 20px;
+	display: inline-block;
+	text-align: right;
+	float: right;
+}
+
+/* =====================================
+FOR KEEPING FOOTER AT BOTTOM OF SCREEN
+CSSReset.com - How To Keep Footer At Bottom of Page with CSS
+Original Tutorial: http://www.cssreset.com/2010/css-tutorials/how-to-keep-footer-at-bottom-of-page-with-css/
+*/
+
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+#header {
+	padding:10px;
+}
+#content {
+	padding-bottom:100px; /* Height of the footer element */
+}
+#footer {
+	width:100%;
+	height:100px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	clear: both;
+}
+
+
+/* =====================================
+FOR MISCELLANEOUS ELEMENTS
+*/
+#section-header {
+	text-align: center;
+	font-size: 3vw;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+
+#section-header-small-top {
+	text-align: left;
+	font-size: 2vw;
+	padding-top: 0px;
+	padding-bottom: 15px;
+	margin: 0px;
+}
+
+.verticalLine {
+    border-left: medium solid #000000;
+}
