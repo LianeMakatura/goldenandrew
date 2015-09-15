@@ -1,5 +1,3 @@
 .reel {
-	width: 90vw;
-	max-width: 1120px;
-	min-width: 200px;
+	margin: 0 auto;
 }
