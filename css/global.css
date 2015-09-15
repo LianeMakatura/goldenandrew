@@ -175,8 +175,8 @@ FOR MISCELLANEOUS ELEMENTS
 #section-header {
 	text-align: center;
 	font-size: 3vw;
-	padding-top: 20px;
-	padding-bottom: 15px;
+	margin-top: 5px;
+	margin-bottom: 30px;
 }
 
 #section-header-small-top {
