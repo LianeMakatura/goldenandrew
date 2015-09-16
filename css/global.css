@@ -187,6 +187,10 @@ FOR MISCELLANEOUS ELEMENTS
 	margin: 0px;
 }
 
+.centered-text {
+	text-align: center;
+}
+
 .verticalLine {
     border-left: medium solid #000000;
 }
